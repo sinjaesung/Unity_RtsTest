@@ -20,6 +20,8 @@ public class UnitSelectionManager : MonoBehaviour
 
     private void Awake()
     {
+        //github 파일변경 테스트 
+
         if(Instance != null && Instance != this)
         {
             Destroy(gameObject);
